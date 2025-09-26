@@ -33,7 +33,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [https://github.com/Thousand533/Frontend-mentor/tree/main/01-qr-code/qr-code-component-main#links](
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://thousand533.github.io/Frontend-mentor/01-qr-code/qr-code-component-main/]
 
 ## My process
 
