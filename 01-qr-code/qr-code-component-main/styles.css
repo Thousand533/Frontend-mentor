@@ -1,11 +1,25 @@
+/* @font-face {
+  font-family: "Outfit";
+  font-size: 12px;
+  src:
+    local("Outfit"),
+    url("https://fonts.google.com/specimen/Outfit")  
+} */
+ @font-face {
+  font-family: MyHelvetica;
+  src:
+    local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
+    url(MgOpenModernaBold.ttf);
+  font-weight: bold;
+}
 body{
   width: 100%;
   height: 100vh;
   background-color: #D5E1EF;
   display: flex;
-  /* flex-direction:column; */
   justify-content:center;
   align-items: center;
+  font-family: "Outfit", sans-serif;
 }
 .card{
   width: 320px;
@@ -15,7 +29,6 @@ body{
   text-align: center;
   justify-content: space-evenly;
   gap: 24px;
-  /* margin-left: -50px; */
 }
 
 div img{
@@ -33,16 +46,4 @@ h2{
 div p{
   color: #68778D;
   font-size: 15px;
-}
-footer{
-  margin:20px;
-}
-@font-face {
-  font-family: "Trickster";
-  font-size: 12px;
-  src:
-    local("Trickster"),
-    url("trickster-COLRv1.otf") format("opentype") tech(color-COLRv1),
-    url("trickster-outline.otf") format("opentype"),
-    url("trickster-outline.woff") format("woff")
 }
