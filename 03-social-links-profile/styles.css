@@ -1,0 +1,78 @@
+:root{
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey700: hsl(0, 0%, 20%);
+--Grey800: hsl(0, 0%, 12%);
+--Grey900: hsl(0, 0%, 8%);
+}
+body{
+    font-family: Inter;
+    font-weight: 400;
+    background-color: var(--Grey900);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--White);
+}
+.Card{
+    background-color: var(--Grey800);
+    padding: 8px;
+    padding-bottom: 16px;
+}
+.Info{
+    display: flex;
+    width: 360px;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Info img{
+    width: 128px;
+    height: 128px;
+    margin-top: 32px;
+    border-radius: 128px;
+}
+.Info p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.City{
+    color: var(--Green);
+    font-weight: 600;
+    margin-top: -8px;
+    margin-bottom: 16px;
+}
+.Link p{
+    width: 300px;
+    height: 48px;
+    background-color: var(--Grey700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.Link p:hover{
+    background-color: var(--Green);
+    color: var(--Grey700);
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight:400;
+    src: local("Inter"), url("https://fonts.google.com/specimen/Inter");
+}
+@font-face {
+    font-family: "Inter";
+    font-weight:600;
+    src: local("Inter"), url("https://fonts.google.com/specimen/Inter");
+}
+@font-face {
+    font-family: "Inter";
+    font-weight:700;
+    src: local("Inter"), url("https://fonts.google.com/specimen/Inter");
+}
