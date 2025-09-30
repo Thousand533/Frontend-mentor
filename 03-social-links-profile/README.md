@@ -1,6 +1,6 @@
 # Frontend Mentor - Blog preview card solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -15,12 +15,12 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
-![blog-preview-card](image.png)
+![social-links-profile Screenshot](image.png)
 
 ### Links
 
-- Solution URL: [https://github.com/Thousand533/Frontend-mentor/tree/main/02-blog-preview-card]
-- Live Site URL: [https://thousand533.github.io/Frontend-mentor/02-blog-preview-card/]
+- Solution URL: [https://github.com/Thousand533/Frontend-mentor/tree/main/03-social-links-profile]
+- Live Site URL: [https://thousand533.github.io/Frontend-mentor/03-social-links-profile/]
 
 ## My process
 
