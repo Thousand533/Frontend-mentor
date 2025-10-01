@@ -1,16 +1,9 @@
-/* @font-face {
+@font-face {
   font-family: "Outfit";
   font-size: 12px;
   src:
     local("Outfit"),
     url("https://fonts.google.com/specimen/Outfit")  
-} */
- @font-face {
-  font-family: MyHelvetica;
-  src:
-    local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
-    url(MgOpenModernaBold.ttf);
-  font-weight: bold;
 }
 body{
   width: 100%;
