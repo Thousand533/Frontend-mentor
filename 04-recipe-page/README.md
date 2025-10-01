@@ -15,12 +15,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Overview
 
 ### Screenshot
-![social-links-profile Screenshot](image.png)
-
+![recipe-page](screenshot.png)
 ### Links
 
-- Solution URL: [https://github.com/Thousand533/Frontend-mentor/tree/main/03-social-links-profile]
-- Live Site URL: [https://thousand533.github.io/Frontend-mentor/03-social-links-profile/]
+- Solution URL: [https://github.com/Thousand533/Frontend-mentor/tree/main/04-recipe-page]
+- Live Site URL: [https://thousand533.github.io/Frontend-mentor/04-recipe-page]
 
 ## My process
 
@@ -32,10 +31,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
+HTML table 
+CSS child slector
 
 ### Useful resources
 
-- [Google web.dev](https://web.dev/learn/css/flexbox?hl=zh-tw) - This helped me for search how CSS works.
+- [Google web.dev](https://web.dev/learn/css) - This helped me for search how CSS works.
 
 
 ## Author
