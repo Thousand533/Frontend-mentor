@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Young Serif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf), url("https://fonts.google.com/specimen/Young+Serif");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf), url("https://fonts.google.com/specimen/Outfit");
+    font-weight: 400, 600, 700;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+body{
+    background-color: var(--Stone100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Outfit";
+}
+h1{
+    font-family: "Young Serif";
+    font-size: 32px;
+    color: var(--Stone900);
+    margin-bottom: -4px;
+}
+h2{
+    font-family: "Young Serif";
+    color: var(--Brown800);
+}
+h3{
+    color: var(--Rose800);
+}
+p, li{
+    color: var(--Stone600);
+    font-weight: 400;
+    font-size: 16px;
+}
+li{
+    line-height: 2em;
+    margin-left: -16px;
+    padding-left: 16px;
+}
+li::marker {
+  font-size: 0.8em;
+  color: var(--Brown800);
+}
+section{
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 40px;
+}
+img{
+    width: 600px;
+    border-radius: 8px;
+}
+table{
+    width: 100%;
+    border-spacing: 0px;    
+    table-layout: fixed;
+}
+td{
+    border-bottom: 0.4px solid;    
+    border-color: var(--Stone600);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+td:nth-child(1){
+    padding-left: 32px;
+    color: var(--Stone600);
+}
+td:nth-child(2){
+    font-weight: 600;
+    color: var(--Brown800);
+}
+hr{
+    border-color: var(--Stone150);
+    border-width: 0.2px;
+}
+.Card{
+    background-color: var(--White);
+    border-radius: 16px;
+}
+.Preparation{
+    background-color: var(--Rose50);
+    border-radius: 8px;
+    padding: 0px 16px;
+    margin-top: 16px;
+}
