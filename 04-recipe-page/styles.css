@@ -36,9 +36,6 @@ h2{
     font-family: "Young Serif";
     color: var(--Brown800);
 }
-h3{
-    color: var(--Rose800);
-}
 p, li{
     color: var(--Stone600);
     font-weight: 400;
@@ -60,6 +57,8 @@ section{
     align-items: left;
     flex-direction: column;
     padding: 40px;
+    margin-top: 120px;
+    margin-bottom: 40px;
 }
 img{
     width: 600px;
@@ -97,4 +96,8 @@ hr{
     border-radius: 8px;
     padding: 0px 16px;
     margin-top: 16px;
+}
+.Preparation> h2{
+    font-size: 16px;
+    color: var(--Rose800);
 }
