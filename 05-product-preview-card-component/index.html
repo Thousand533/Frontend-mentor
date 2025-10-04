@@ -21,7 +21,11 @@
     <section>
       <div class="Card">
         <div>
-          <img src="images/image-product-mobile.jpg" alt="">
+          <picture>
+            <source srcset="images/image-product-mobile.jpg" media="(max-width: 768px)">
+            <source srcset="images/image-product-desktop.jpg" media="(min-width: 48em)">
+            <img src="images/image-product-mobile.jpg" alt="hero image">
+          </picture>
         </div>
         <div class="CardContent">
           <div class="Tag">Perfume</div>
@@ -32,12 +36,10 @@
             <div class="MainPrice">$149.99</div>
             <div class="FakePrice">$169.99</div>
           </div>
-          <button>
-            <div>
-              <img src="images/icon-cart.svg" alt="">
-              <div>Add to Cart</div>
-            </div>
-          </button>
+          <div class="btn">
+            <img src="images/icon-cart.svg" alt="">
+            <div>Add to Cart</div>
+          </div>
         </div>
       </div>
     </section>

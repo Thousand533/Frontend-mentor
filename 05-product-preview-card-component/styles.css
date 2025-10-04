@@ -75,7 +75,7 @@ p{
     font-size: 0.8em;
 }
 
-button{
+.btn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,7 +86,7 @@ button{
     border: none;
     border-radius: 8px;
 }
-button>img{
+.btn img{
     width: 16px;
     margin-right: 16px;
 }
