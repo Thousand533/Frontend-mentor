@@ -18,8 +18,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ![recipe-page](screenshot.png)
 ### Links
 
-- Solution URL: [https://github.com/Thousand533/Frontend-mentor/tree/main/04-recipe-page]
-- Live Site URL: [https://thousand533.github.io/Frontend-mentor/04-recipe-page]
+- Solution URL: [https://github.com/Thousand533/Frontend-mentor/tree/main/05-product-preview-card-component]
+- Live Site URL: [https://thousand533.github.io/Frontend-mentor/05-product-preview-card-component]
 
 ## My process
 
