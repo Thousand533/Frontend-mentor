@@ -8,6 +8,7 @@
 }
 
 body{
+    height: 100vh;
     background-color: var(--Cream);
     display: flex;
     justify-content: center;
@@ -23,7 +24,7 @@ section{
     margin-top: 60px;
 }
 
-img{
+picture img{
     width: 100%;
     border-radius: 1em 1em 0em 0em;
 }
@@ -33,10 +34,6 @@ h1{
     font-optical-sizing: auto;
     font-weight: 700;
     color: var(--Black);
-}
-
-p{
-    
 }
 
 .Card{
@@ -86,7 +83,24 @@ p{
     border: none;
     border-radius: 8px;
 }
+
 .btn img{
     width: 16px;
     margin-right: 16px;
+}
+
+@media (min-width: 48em){
+    .Card{
+        min-width: 28em;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    picture img{
+        border-radius: 1em 0em 0em 1em;
+        height: 100%;
+    }
+    .CardContent{
+        padding: none;
+    }
 }
