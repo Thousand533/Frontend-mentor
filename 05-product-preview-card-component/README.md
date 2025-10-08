@@ -1,6 +1,6 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -15,7 +15,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Overview
 
 ### Screenshot
-![recipe-page](screenshot.png)
+
 ### Links
 
 - Solution URL: [https://github.com/Thousand533/Frontend-mentor/tree/main/05-product-preview-card-component]
