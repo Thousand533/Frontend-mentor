@@ -77,9 +77,13 @@ div .iconBox{
     margin: 24px 0px;
     padding: 16px 24px 0px 24px;
     box-shadow: 8px 8px 8px 4px var(--Grey200);
-    border-top: 0.3rem solid var(--Blue);
     border-radius: 4px;
 }
+
+.Card:nth-child(4n + 1) { border-top: 0.3rem solid var(--Cyan)}   
+.Card:nth-child(4n + 2) { border-top: 0.3rem solid var(--Red)} 
+.Card:nth-child(4n + 3) { border-top: 0.3rem solid var(--Orange)}  
+.Card:nth-child(4n + 4) { border-top: 0.3rem solid var(--Blue)} 
 
 .Card h1{
     font-size: 1.5em;
