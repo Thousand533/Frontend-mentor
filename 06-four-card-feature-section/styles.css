@@ -1,5 +1,4 @@
 :root{
-
 --Red:hsl(0, 78%, 62%);
 --Cyan:hsl(180, 62%, 55%);
 --Orange:hsl(34, 97%, 64%);
@@ -7,5 +6,82 @@
 
 --Grey500:hsl(234, 12%, 34%);
 --Grey400:hsl(212, 6%, 44%);
+--Grey200:hsl(150, 5%, 92%);
+--Grey100:#FAFAFA;
 --White:hsl(0, 0%, 100%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+ .poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: var(--Grey400);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TopBox{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.TopBox h1{
+    line-height: 0.6;
+}
+
+section{
+    width: 280px;
+    margin: 0px 40px;
+    padding: 32px 24px;
+    background-color: var(--Grey100);
+}
+
+.MainBox{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+div .iconBox{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4px;
+}
+
+.Card{
+    background-color: var(--White);
+    color: var(--Grey400);
+    height: 200px;
+    margin: 24px 0px;
+    padding: 16px 24px 0px 24px;
+    box-shadow: 8px 8px 8px 4px var(--Grey200);
+    border-top: 0.3rem solid var(--Blue);
+    border-radius: 4px;
+}
+
+.Card h1{
+    font-size: 1.5em;
+    line-height: 0.8;
 }
