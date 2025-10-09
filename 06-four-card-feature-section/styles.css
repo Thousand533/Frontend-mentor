@@ -80,12 +80,35 @@ div .iconBox{
     border-radius: 4px;
 }
 
-.Card:nth-child(4n + 1) { border-top: 0.3rem solid var(--Cyan)}   
-.Card:nth-child(4n + 2) { border-top: 0.3rem solid var(--Red)} 
-.Card:nth-child(4n + 3) { border-top: 0.3rem solid var(--Orange)}  
-.Card:nth-child(4n + 4) { border-top: 0.3rem solid var(--Blue)} 
+.BorderTopColorCyan { border-top: 0.3rem solid var(--Cyan)}   
+.BorderTopColorRed { border-top: 0.3rem solid var(--Red)} 
+.BorderTopColorOrange { border-top: 0.3rem solid var(--Orange)}  
+.BorderTopColorBlue { border-top: 0.3rem solid var(--Blue)} 
 
 .Card h1{
     font-size: 1.5em;
     line-height: 0.8;
+}
+
+@media (min-width: 48em) {
+    .CardBox{
+        width:70em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 32px;
+    }
+    .CardBox >.Card{
+        width:33%;
+    }
+    section{
+        width: 90vw;
+    }
+    .TopBox{
+        width: 480px;
+    }
+    .TopBox h1{
+        font-size: 2em;
+    }
 }
