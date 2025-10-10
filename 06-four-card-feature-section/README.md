@@ -18,8 +18,8 @@ This is a solution to the [Four card feature section](https://www.frontendmentor
 
 ### Links
 
-- Solution URL: [https://github.com/Thousand533/Frontend-mentor/tree/main/]
-- Live Site URL: [https://thousand533.github.io/Frontend-mentor/]
+- Solution URL: [https://github.com/Thousand533/Frontend-mentor/tree/main/06-four-card-feature-section]
+- Live Site URL: [https://thousand533.github.io/Frontend-mentor/06-four-card-feature-section]
 
 ## My process
 
@@ -31,8 +31,7 @@ This is a solution to the [Four card feature section](https://www.frontendmentor
 
 ### What I learned
 
-HTML table 
-CSS child slector
+CSS flexbox direction & align-content
 
 ### Useful resources
 
